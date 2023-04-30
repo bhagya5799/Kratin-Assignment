@@ -1,0 +1,21 @@
+.card-1 {
+  /* height: 10rem; */
+  width: 12rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0.2rem;
+}
+.home-care-description{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.home-care-description>h2{
+    color: green;
+
+}

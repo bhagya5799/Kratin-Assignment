@@ -1,0 +1,22 @@
+.home-care {
+  overflow-x: hidden;
+  gap: 1rem;
+}
+.home-care-card {
+  height: 20rem;
+  width: 100%;
+}
+.bar {
+  background-color: white;
+  padding-left: 0.9rem;
+  gap: 1rem;
+}
+.home-care-description {
+  text-align: center;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.home-care-description::first-line {
+  color: green;
+}
+

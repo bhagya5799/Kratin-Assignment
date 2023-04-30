@@ -1,0 +1,131 @@
+.home {
+  width: 100dvw;
+}
+
+.header-bar {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+ 
+}
+
+.video-container {
+  width: 100%;
+  background-size: cover;
+}
+.details > a {
+  color: white;
+}
+.video-container > video {
+
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+}
+
+.overlay {
+  min-height: 100vh;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.overlay h4 {
+  background: none repeat scroll 1 1;
+  width: 60%;
+  color: hsl(120, 36%, 95%);
+  font-weight: 600;
+  margin: 2rem 3rem 0;
+  mix-blend-mode: overlay;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+.hero-headline > span {
+  font-size: 1.2rem;
+}
+
+.card-container {
+  padding: 2rem;
+}
+
+.care-bg-container {
+  background-image: url("https://thumbs.dreamstime.com/b/young-woman-serving-dinner-elderly-living-room-senior-people-care-171932883.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 30rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  opacity: 90%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.protect-hand {
+  padding: 1rem;
+  opacity: 60%;
+  /* background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-caring-for-the-elderly-public-welfare-design-psd-material-picture-image_1013270.jpg'); */
+}
+.protect-hand > h1 {
+  color: green;
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+}
+.protect-hand > div > h3 {
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (max-width:660px) {
+  .Mobile-view{
+    display: block;
+    width:100% ;
+  }
+  .video-container {
+  /* width: 100%; */
+  background-size: cover;
+}
+.video-container > video {
+  position: absolute;
+  top: 7rem;
+  left: 0;
+  /* width: 100%; */
+  height: 80%;
+  background-size: cover;
+}
+.overlay h4 {
+  background: none repeat scroll 1 1;
+  width: 60%;
+  color: hsl(120, 36%, 95%);
+  margin: 2rem 3rem 0;
+  mix-blend-mode: overlay;
+  /* padding: 5px 20px; */
+  text-align: center;
+  
+}
+  
+  
+  
+}
+@media screen and (min-width:680px) {
+  .Mobile-view{
+    display: none;
+    width:100% ;
+  }
+  /* .header-bar{
+    display:block ;
+    width:100% ;
+  } */
+  
+}

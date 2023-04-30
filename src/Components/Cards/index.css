@@ -1,0 +1,21 @@
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.card {
+  height: 8rem;
+  width: 10rem;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 0.2rem;
+}
+.link {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,43 @@
+.getStart {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  width: 100%;
+}
+.bar-2 {
+  background-color: white;
+  border-bottom: 2px solid green;
+  top: 6rem;
+}
+.get-start-form {
+  margin-top: 7rem;
+  width: 60%;
+}
+.get-start-form > .get-start {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.form-container>label{
+    font-size: 1.2rem;
+    color: green;
+}
+.form-container>input, select{
+    height: 3rem;
+   
+}
+@media screen and (max-width:670px) {
+    .bar-2>h2{
+        font-size: 12px;
+    }
+    .form-container>input, select{
+    height: 1.5rem;
+    
+}
+
+    
+}

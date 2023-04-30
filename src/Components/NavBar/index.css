@@ -1,0 +1,81 @@
+.navbar {
+  height: 5rem;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-bottom: 3px solid green;
+  z-index: 1;
+}
+.navbar > div > img {
+  background-color: transparent;
+}
+.scrolled {
+  background-color: black;
+  color: white;
+}
+.nav {
+  position: sticky;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  padding: 0 2rem;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+}
+.get-card {
+  width: 100%;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.nav-items {
+  display: flex;
+  gap: 1rem;
+}
+.started {
+  background-color: rgb(17, 175, 48);
+  border-width: 0;
+  border-radius: 0.2rem;
+  color: white;
+  padding: 8px 15px;
+}
+select {
+  width: 10rem;
+}
+.contact-btn {
+  background-color: rgb(44, 44, 138);
+  border-width: 0;
+  border-radius: 0.2rem;
+  color: white;
+  padding: 2px 15px;
+}
+.register-btn {
+  background-color: rgb(226, 103, 159);
+  border-width: 0;
+  border-radius: 0.2rem;
+  color: white;
+  padding: 8px 15px;
+}
+.feedback-btn{
+  background-color: rgb(173, 208, 59);
+  border-width: 0;
+  border-radius: 0.2rem;
+  color: white;
+  padding: 8px 15px;
+  font-size: 1rem;
+  
+}
+@media screen and (max-width:600px) {
+  /* .navbar{
+    height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10rem;
+  } */
+
+  /* .care-life{
+    font-size: 12px;
+
+  } */
+}
